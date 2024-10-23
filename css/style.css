@@ -1,0 +1,95 @@
+/*geral*/
+body,h1,p,span{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: #0f1722;
+}
+h1{
+    margin: 30px 0;
+    color: white;
+    text-align: center;
+}
+
+/*Calculadora*/
+#calculadora{
+    background-color:#1D293A ;
+    max-width: 80vw;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#tela-container{
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+    width: 258px;
+    height: 70px;
+    border: 1px solid #354557;
+    text-align: right;
+    overflow: hidden;
+    box-sizing: border-box;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+#operacao,#resultado{
+    float: right;
+    color: white;
+
+}
+
+#resultado{
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 22px;
+    clear: both;
+}
+
+.btn-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    margin: 0 7.5px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    background-color: #354357;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #6C63FF;
+}
+
+#ac-btn{
+    margin-left: -200px;
+
+}
+
+#btn-divisao{
+    position: absolute;
+    right: 14px;
+}
+#btn-zero,#btn-resultado{
+    width: 120px;
+}
+#ac-btn,#divisao-btn,#multiplicacao-btn,#subtracao-btn,#resultado-btn,#adicao-btn,#zero-btn{
+    font-weight: 300;
+    font-size: 20px;
+}
